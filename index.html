@@ -6,6 +6,7 @@
     </head>
       <script src="./scripts/scriptWorkWithFormula.js"></script>
       <script src="./scripts/scriptOperation.js"></script>
+	  <script src="./scripts/generateFormula.js"></script>
 	  
 	  <style type="text/css">
         p {
@@ -57,7 +58,8 @@
     </div>
 	 <div class="center">
         <h3>Является ли строка формулой логики высказываний?</h3>
-          <input id="EnterFormula" type="text" name="EnterFormula"><br>
+          <input id="EnterFormula" type="text" name="EnterFormula">
+		  <input type="button" onclick="generateFormula()" value="Генерация"></input><br>
             <input type="button" onclick="clickYes()" value="Да"></input>
             <input type="button" onclick="clickNo()" value="Нет"></input>
               </input></input>

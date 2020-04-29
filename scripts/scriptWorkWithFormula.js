@@ -4,6 +4,10 @@ var replaceFormula = "R";
 var result;
 var tempFormula;
 
+/**
+	* Authors: Zelinskiy A.G.
+	*/
+	
 function verificationFormula(formula){
 
       while (formula != tempFormula ) {
